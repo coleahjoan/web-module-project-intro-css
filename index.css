@@ -75,12 +75,7 @@ h1{
     font-family: 'Roboto Mono', monospace;
     font-size:5rem;
 }
-.header div{
-    text-align:center;
-    width:80%;
-    display:inline-block;
-}
-#header-img img{
+#header-img{
     border-radius:50%;
     width:25%;
     margin:15%;
@@ -90,21 +85,21 @@ h1{
 /*end of header section styling*/
 
 /*middle section styling*/
-
+.about{
+    background-color:#DDB9A3;
+}
 .bottom-image{
     width:25%;
 }
 .top-image{
     width:25%;
 }
-.about{
-    background-color:#DDB9A3;
-
-}
 .middle{
     text-align:center;
 }
-
+.bold{
+    font-weight:bold;
+}
 /*end of middle section styling*/
 
 /*footer styling*/
