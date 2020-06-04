@@ -1,9 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-</style>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-</style>
+
 
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
@@ -36,20 +31,23 @@ vertical-align: baseline;
 html{
     font-size:62.5%;
     font-family: 'Roboto Mono', monospace;
+    max-width:900px;
+    width:100%;
+    margin:0 auto;
 }
 
 /*end of general styles and reset*/
 
 /*nav styling*/
 
-a {
-    padding:1rem;
+a{
+    padding:.75rem;
     border-radius:10px;
     color:#FFFFFF;
     background-color:#FF764E;
     text-decoration:none;
-    margin-left:15rem;
-    margin-right:15rem;
+    margin-left:5rem;
+    margin-right:5rem;
     font-size:1rem;
 }
 nav{
@@ -70,42 +68,73 @@ nav{
 /*end of nav styling*/
 
 /*header section styling*/
-
+.main{
+    display:inline-block;
+}
+.main-text{
+    float:right;
+    padding-right:1rem;
+    padding-top:1rem;
+    text-align:center;
+}
 h1{
-    font-family: 'Roboto Mono', monospace;
-    font-size:5rem;
+    font-family: 'Chelsea Market', Regular;
+    font-size:4rem;
+    margin:1%;
+}
+.main p{
+    font-size:1.25rem;
+    padding:1.75rem;
 }
 #header-img{
     border-radius:50%;
-    width:25%;
-    margin:15%;
-    float:left;
+    width:20%;
+    margin:2% 2% 2% 10%;
 }
 
 /*end of header section styling*/
 
-/*middle section styling*/
+
 .about{
     background-color:#DDB9A3;
+    padding:1rem;
+    color:#FFFFFF;
+    font-size:1.25rem;
+    max-width:85%;
+    margin:5rem 5rem 5rem 8rem;
+    justify-content:center;
 }
+.about p{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+/*middle section styling*/
+
 .bottom-image{
     width:25%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .top-image{
     width:25%;
+    margin-left:auto;
+    margin-right:auto;
 }
-.middle{
+.middle p{
     text-align:center;
+    padding:2rem;
 }
 .bold{
     font-weight:bold;
 }
+
 /*end of middle section styling*/
 
 /*footer styling*/
-.footer-image{
-    max-width:100%;
-    height:10%;
+.footer-image img{
+    max-width:1000px;
+    width:100%;
+    height:35vh;
 }
 .bottom-nav{
     background-color:#F9E7DC
